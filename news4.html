@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/76/27/87/caption.jpg?w=1200&h=-1&s=1" alt="">
+        <h3>TAMUEN NEWS</h3>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" data-category="all">Home</a></li>
+        <li><a href="#" data-category="world">World</a></li>
+        <li><a href="#" data-category="technology">Technology</a></li>
+        <li><a href="#" data-category="sports">Sports</a></li>
+      </ul>
+    </nav>
+    <button id="mode-toggle">🌙 Dark Mode</button>
+  </header>
+  <section class="fullinformation">
+   <center>
+    <h2 >Cambodia Launches National AI Strategy Initiative</h2>
+    </center>
+    <h3>On August 15, 2025</h3>
+    <img style="width: 90%;" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=300&fit=crop" alt="">
+ 
+    <p>The government has unveiled its National AI Strategy, positioning Cambodia as a regional leader in artificial intelligence development and implementation. The strategy includes partnerships with leading tech companies, establishment of AI research centers, and integration of AI technologies in public services. The initiative aims to boost economic growth while ensuring ethical AI development and protecting citizen privacy rights.</p>
+    
+</section>
+    
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MyNews | <a href="#">Privacy</a> | <a href="#">Contact</a></p>
+    
+  </footer>
+
+  <script>
+  document.getElementById("mode-toggle").addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
+</script>
+</body>
+</html>
